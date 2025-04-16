@@ -1,12 +1,28 @@
-# React + Vite
+# useReducer Hook 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a presentation and practical code examples demonstrating how to use the `useReducer` hook in React. The content is designed for learning and showcasing real-world applications where `useReducer` helps manage complex state logic cleanly and effectively.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📊 Presentation Overview
 
-## Expanding the ESLint configuration
+The slides walk through:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ What `useReducer` is
+- 🔁 How it works (reducer function, state, dispatch)
+- 🤔 When to use it instead of `useState`
+- 🧪 Practical code examples
+- 🌍 Real-world use cases
+
+---
+
+## Resources
+React Docs – useReducer
+
+React Patterns – useReducer for forms & lists
+
+## Contributors
+-> Larry 
+-> Liam
+-> Kelvin
+-> Brian

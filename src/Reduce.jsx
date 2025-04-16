@@ -28,12 +28,12 @@ export default function Counter() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
-    <div className="text-center mt-10">
+    <div className="text-center mt-10 fs-3">
       {/* Display the current count */}
-      <p className="text-2xl">Count: {state.count}</p>
+      <p className="text-2xl fs-3">Count: {state.count}</p>
 
       {/* Buttons to dispatch actions to the reducer */}
-      <div className="space-x-4 mt-4">
+      <div className="space-x-4 mt-4 mx-2">
         {/* Increment button */}
         <button
           onClick={() => dispatch({ type: "increment" })}
